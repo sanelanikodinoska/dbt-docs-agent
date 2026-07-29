@@ -1,0 +1,202 @@
+[
+  {
+    "question": "How do I define entities, dimensions, and measures in a semantic model?",
+    "source": "website/docs/reference/semantic-model-properties.md"
+  },
+  {
+    "question": "What are the required and optional properties I need to configure when creating a semantic model?",
+    "source": "website/docs/reference/semantic-model-properties.md"
+  },
+  {
+    "question": "What types of databases does ADE-bench use to test dbt projects, and why was each one chosen?",
+    "source": "website/blog/2026-04-15-building-better-benchmark.md"
+  },
+  {
+    "question": "What components and layers typically make up the dbt projects used in ADE-bench data environments?",
+    "source": "website/blog/2026-04-15-building-better-benchmark.md"
+  },
+  {
+    "question": "How can I formally document the relationship between my dbt models and BI tools in a mature dbt project?",
+    "source": "website/blog/2021-12-05-how-to-build-a-mature-dbt-project-from-scratch.md"
+  },
+  {
+    "question": "What advanced macro capabilities become available in a mature dbt project for warehouse management?",
+    "source": "website/blog/2021-12-05-how-to-build-a-mature-dbt-project-from-scratch.md"
+  },
+  {
+    "question": "How do I enable experimental features in dbt to preview beta features?",
+    "source": "website/docs/docs/dbt-versions/experimental-features.md"
+  },
+  {
+    "question": "What are the limitations and risks of using experimental features in dbt?",
+    "source": "website/docs/docs/dbt-versions/experimental-features.md"
+  },
+  {
+    "question": "How can I set up a continuous deployment workflow in dbt Cloud to automatically trigger job runs when pull requests merge into production?",
+    "source": "website/docs/docs/dbt-versions/2024-release-notes.md"
+  },
+  {
+    "question": "What is the new `require_explicit_package_overrides_for_builtin_materializations` flag and what behavior change does it introduce for package materializations?",
+    "source": "website/docs/docs/dbt-versions/2024-release-notes.md"
+  },
+  {
+    "question": "What are the key elements I should include when writing a prompt for dbt Wizard to get the best results?",
+    "source": "website/docs/docs/dbt-ai/wizard-use-cases.md"
+  },
+  {
+    "question": "What are some common tasks I can use dbt Wizard to help with in my dbt project?",
+    "source": "website/docs/docs/dbt-ai/wizard-use-cases.md"
+  },
+  {
+    "question": "Should I denormalize my marts heavily or keep them normalized, and does it depend on whether I'm using the semantic layer?",
+    "source": "website/docs/best-practices/how-we-structure/4-marts.md"
+  },
+  {
+    "question": "What is the purpose of the marts layer in dbt, and what should each mart represent?",
+    "source": "website/docs/best-practices/how-we-structure/4-marts.md"
+  },
+  {
+    "question": "How does dbt Fusion handle Jinja rendering if it's built in Rust while Jinja is a Python project?",
+    "source": "website/blog/2025-05-28-dbt-fusion-engine-components.md"
+  },
+  {
+    "question": "What is dbt-jinja and why would I want to use it for my projects?",
+    "source": "website/blog/2025-05-28-dbt-fusion-engine-components.md"
+  },
+  {
+    "question": "How do I set up different environments like dev, staging, and prod in dbt?",
+    "source": "website/snippets/_profiles.yml.md"
+  },
+  {
+    "question": "Where should I store my database connection credentials to keep them out of version control?",
+    "source": "website/snippets/_profiles.yml.md"
+  },
+  {
+    "question": "How do I reference the current model in a where clause within an incremental model?",
+    "source": "website/docs/reference/dbt-jinja-functions/this.md"
+  },
+  {
+    "question": "What properties can I access from the `this` variable, such as database and schema information?",
+    "source": "website/docs/reference/dbt-jinja-functions/this.md"
+  },
+  {
+    "question": "What version of dbt or which dbt Cloud release tracks include the functionality for putting your DAG on the internet?",
+    "source": "website/blog/2024-06-12-putting-your-dag-on-the-internet.md"
+  },
+  {
+    "question": "Where can I discuss the DAG internet functionality with dbt Labs staff and community members?",
+    "source": "website/blog/2024-06-12-putting-your-dag-on-the-internet.md"
+  },
+  {
+    "question": "How can I pass additional configuration parameters to DuckDB's ATTACH statement beyond the basic path and type fields?",
+    "source": "website/docs/reference/resource-configs/duckdb-configs.md"
+  },
+  {
+    "question": "What happens if I specify the same option in both a direct field like read_only and also in the options dictionary?",
+    "source": "website/docs/reference/resource-configs/duckdb-configs.md"
+  },
+  {
+    "question": "How can I query metrics from the semantic layer programmatically in my downstream tools?",
+    "source": "website/docs/docs/use-dbt-semantic-layer/consume-metrics.md"
+  },
+  {
+    "question": "What are the different API options available for querying metrics from the semantic layer?",
+    "source": "website/docs/docs/use-dbt-semantic-layer/consume-metrics.md"
+  },
+  {
+    "question": "How do I test that my deduplicated staging model has the correct grain after removing partial duplicates?",
+    "source": "website/blog/2022-04-19-complex-deduplication.md"
+  },
+  {
+    "question": "What tests should I add to my grain_id column in YAML to validate my deduplication is working correctly?",
+    "source": "website/blog/2022-04-19-complex-deduplication.md"
+  },
+  {
+    "question": "How can I ensure backend changes don't break my dbt models before they're released?",
+    "source": "website/blog/2022-04-05-when-backend-devs-spark-joy.md"
+  },
+  {
+    "question": "What kind of documentation should backend teams maintain to help me write better dbt source model documentation?",
+    "source": "website/blog/2022-04-05-when-backend-devs-spark-joy.md"
+  },
+  {
+    "question": "How does dbt relate to the different roles and components involved in executing data pipelines?",
+    "source": "website/blog/2025-01-21-wish-i-had-a-control-plane-for-my-renovation.md"
+  },
+  {
+    "question": "What is the limitation of using monitoring tools alone for managing data pipelines, and how does this relate to dbt?",
+    "source": "website/blog/2025-01-21-wish-i-had-a-control-plane-for-my-renovation.md"
+  },
+  {
+    "question": "How do I migrate my existing reusable prompts to work with the dbt Wizard?",
+    "source": "website/docs/docs/dbt-ai/wizard-migrate.md"
+  },
+  {
+    "question": "Where should I place skill files in my repository so that Wizard can automatically discover them?",
+    "source": "website/docs/docs/dbt-ai/wizard-migrate.md"
+  },
+  {
+    "question": "How can I retrieve the execution timing details for a specific dbt model, including when it started, completed, and how long it took to run?",
+    "source": "website/docs/docs/dbt-apis/schema-discovery-job-model.mdx"
+  },
+  {
+    "question": "How do I query a model's column-level information such as column names, data types, descriptions, and tags using the model object?",
+    "source": "website/docs/docs/dbt-apis/schema-discovery-job-model.mdx"
+  },
+  {
+    "question": "How do I create tables in Starburst Galaxy for the Jaffle Shop data stored in my S3 bucket?",
+    "source": "website/docs/guides/starburst-galaxy-qs.md"
+  },
+  {
+    "question": "What SQL queries do I need to run to set up the jaffle_shop schema and its associated tables for a dbt quickstart project?",
+    "source": "website/docs/guides/starburst-galaxy-qs.md"
+  },
+  {
+    "question": "How can I configure a lookback window to reprocess additional batches in my microbatch incremental models to capture late-arriving records?",
+    "source": "website/docs/reference/resource-configs/lookback.md"
+  },
+  {
+    "question": "What is the default lookback value for microbatch incremental models and where can I set a custom lookback configuration?",
+    "source": "website/docs/reference/resource-configs/lookback.md"
+  },
+  {
+    "question": "How can I build a customer 360 view in dbt that aggregates data from multiple sources like application usage, workspace information, and orders?",
+    "source": "website/blog/2022-02-07-customer-360-view-census-playbook.md"
+  },
+  {
+    "question": "What data structure and metrics should I model to help a sales team identify power users and understand how users are interacting with the platform?",
+    "source": "website/blog/2022-02-07-customer-360-view-census-playbook.md"
+  },
+  {
+    "question": "How can I enable the faster Rust-based v2 parser in dbt core v1.12?",
+    "source": "website/docs/reference/global-configs/parsing.md"
+  },
+  {
+    "question": "What happens to partial parsing when I use the v2 parser flag?",
+    "source": "website/docs/reference/global-configs/parsing.md"
+  },
+  {
+    "question": "What are the different layers of the dbt Core v2.0 adapter stack and what responsibility does each layer have?",
+    "source": "website/docs/docs/contribute-core-adapters-v2.md"
+  },
+  {
+    "question": "Where in the dbt adapter architecture do I implement relation logic, macro definitions, and credential resolution for my data warehouse?",
+    "source": "website/docs/docs/contribute-core-adapters-v2.md"
+  },
+  {
+    "question": "How do right joins differ from left joins in terms of which rows they return?",
+    "source": "website/docs/sql-reference/joins/sql-right-join.md"
+  },
+  {
+    "question": "Can I rewrite a right join using a left join instead, and why might I want to do that?",
+    "source": "website/docs/sql-reference/joins/sql-right-join.md"
+  },
+  {
+    "question": "How do I reference the Snowflake virtual warehouse name in my dbt models?",
+    "source": "website/docs/reference/dbt-jinja-functions/target.md"
+  },
+  {
+    "question": "What target variables are available for Postgres and Redshift adapters?",
+    "source": "website/docs/reference/dbt-jinja-functions/target.md"
+  }
+]

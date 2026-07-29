@@ -1,0 +1,31 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+*.pyc
+.venv/
+venv/
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+
+# Secrets — NEVER commit these
+.env
+
+# Large generated files (regenerated from code; don't bloat the repo)
+repo.zip
+embeddings*.npy
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Eval run artifacts (optional — keep if you want to show results)
+# eval_results*.json
