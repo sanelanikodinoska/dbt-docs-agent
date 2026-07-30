@@ -7,7 +7,17 @@ import anthropic
 from search import text_search
 
 load_dotenv()
-_client = anthropic.Anthropic()
+
+api_key = os.getenv("ANTHROPIC_API_KEY")
+
+if not api_key:
+    raise ValueError("ANTHROPIC_API_KEY not found")
+
+_client = anthropic.Anthropic(
+    api_key=api_key
+)
+
+
 MODEL = "claude-haiku-4-5-20251001"
 
 TOOLS = [{

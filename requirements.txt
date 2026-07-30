@@ -7,3 +7,5 @@ numpy
 pandas
 requests
 python-frontmatter
+torch
+torchvision
