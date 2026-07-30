@@ -9,13 +9,17 @@ from search import text_search
 load_dotenv()
 
 api_key = os.getenv("ANTHROPIC_API_KEY")
+if not api_key:
+    try:
+        import streamlit as st
+        api_key = st.secrets["ANTHROPIC_API_KEY"]
+    except Exception:
+        pass
 
 if not api_key:
     raise ValueError("ANTHROPIC_API_KEY not found")
 
-_client = anthropic.Anthropic(
-    api_key=api_key
-)
+_client = anthropic.Anthropic(api_key=api_key)
 
 
 MODEL = "claude-haiku-4-5-20251001"
