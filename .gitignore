@@ -14,7 +14,7 @@ wheels/
 .env
 
 # Secrets — NEVER commit these
-.env
+.env.example
 
 # Large generated files (regenerated from code; don't bloat the repo)
 repo.zip
