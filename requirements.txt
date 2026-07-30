@@ -1,9 +1,0 @@
-streamlit
-minsearch
-sentence-transformers
-anthropic
-python-dotenv
-numpy
-pandas
-requests
-python-frontmatter
