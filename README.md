@@ -15,9 +15,9 @@ several searches), and answers with citations to the source files.
 
 ## Demo
 
-![demo](demo.gif)
+![alt text](streamlit-app-2026-07-30-21-24-22-ezgif.com-optimize.gif)
 
-![alt text](image.png)
+
 
 
 ## How it works
@@ -55,7 +55,7 @@ python pipeline.py        # or run the pipeline notebook
 streamlit run app.py
 ```
 
-Opens at http://localhost:8501.
+Opens at https://dbt-docs-agent-9kriyqcthsx3bb52erfeuw.streamlit.app/.
 
 ## Evaluation results
 
