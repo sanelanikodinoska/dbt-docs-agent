@@ -19,7 +19,6 @@ several searches), and answers with citations to the source files.
 
 ![alt text](image.png)
 
-*(Replace with your own screenshot or GIF — see Day 7 steps below.)*
 
 ## How it works
 
